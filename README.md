@@ -1,4 +1,4 @@
-# Exercícios e exemplos qualidade e teste de software
+# Códigos qualidade e teste de software
 
 ### Aula 1: Exercício entrada x saída de dados com .txt
 
@@ -18,4 +18,17 @@ distancia B = tempo * velocidade B
   * BigDecimal
   * RoundingMode
 
-### Aula 2:
+### Aula 2: Introdução ao JUnit ~no modo root~ sem IDE
+
+##### Compilando e executando o projeto:
+
+Compilando:
+```
+javac src/Calculator.java
+javac -cp .;libs/junit-4.xx.jar;libs/hamcrest-core-1.3.jar src/CalculatorTests.java
+```
+
+Executando:
+```
+java -cp .;libs/junit-4.xx.jar;libs/hamcrest-core-1.3.jar org.junit.runner.JUnitCore src.CalculatorTests
+```
