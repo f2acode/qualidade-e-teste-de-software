@@ -20,7 +20,7 @@ distancia B = tempo * velocidade B
 
 ### Aula 2: Introdução ao JUnit ~no modo root~ sem IDE
 
-##### Compilando e executando o projeto:
+#### Compilando e executando o projeto:
 
 Compilando:
 ```
@@ -32,3 +32,4 @@ Executando:
 ```
 java -cp .;libs/junit-4.xx.jar;libs/hamcrest-core-1.3.jar org.junit.runner.JUnitCore src.CalculatorTests
 ```
+### Aula 3
