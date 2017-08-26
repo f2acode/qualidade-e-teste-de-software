@@ -1,4 +1,4 @@
-# Códigos qualidade e teste de software
+# Qualidade e teste de software
 
 ### Aula 1: Exercício entrada x saída de dados com .txt
 
