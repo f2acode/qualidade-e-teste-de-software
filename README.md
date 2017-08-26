@@ -22,13 +22,21 @@ distancia B = tempo * velocidade B
 
 #### Compilando e executando o projeto:
 
-Compilando:
+Compilando no Linux ou MacOS:
+```
+javac src/Calculator.java
+javac -cp .:libs/junit-4.xx.jar:libs/hamcrest-core-1.3.jar src/CalculatorTests.java
+```
+Compilando no Windows:
 ```
 javac src/Calculator.java
 javac -cp .;libs/junit-4.xx.jar;libs/hamcrest-core-1.3.jar src/CalculatorTests.java
 ```
-
-Executando:
+Executando no Linux ou MacOS:
+```
+java -cp .:libs/junit-4.xx.jar:libs/hamcrest-core-1.3.jar org.junit.runner.JUnitCore src.CalculatorTests
+```
+Executando no Windows:
 ```
 java -cp .;libs/junit-4.xx.jar;libs/hamcrest-core-1.3.jar org.junit.runner.JUnitCore src.CalculatorTests
 ```
