@@ -75,4 +75,10 @@ O teste unitário é uma modalidade de testes que se concentra na verificação 
 
 7.  Faça esses passos para toda a lista de tarefas.
 
-## 4:
+## 4: Exercícios JUnit e teste de integração
+Exercícios realizados com propósito de treinar integração entre códigos de diferentes pessoas.
+Foram realizados testes unitários em diversas partes do código.
+
+#### Exercício Urna Eletrônica
+
+> O sistema de urna eletrônica deve realizar a eleição de vereador e prefeito de uma cidade. As seguintes classes e métodos devem ser criadas: Classe Candidato: Construtor, adiciona voto e  retornar votos. Classe Urna: Construtor, resultado da eleição, cadastro candidatos, iniciar eleição, menu de opções.
