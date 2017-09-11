@@ -45,7 +45,8 @@ public class Urna{
 
     int i = -1;
     for(int j = 0; j <= this.candidatos.size()-1;j++){
-      if(this.candidatos.get(j).nome == nome){
+      System.out.println(this.candidatos.get(j).nome + nome);
+      if(this.candidatos.get(j).nome.equalsIgnoreCase(nome)){
         i = j;
       }
     }
